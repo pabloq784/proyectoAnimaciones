@@ -80,12 +80,12 @@ body {
 /* Menú debajo en columna */
 .sidebar ul {
   display: flex;
-  flex-direction: column;  /* columna */
+  flex-direction: column;  
   align-items: center;
   list-style: none;  
   gap: 12px;
   padding-top: 80px;
-  margin-left: 40px;
+  margin: 0px;
 }
 
 .sidebar ul li a {
@@ -162,8 +162,8 @@ body {
 /* Mobile */
 @media (max-width: 576px) {
   .sidebar ul {
-    display: flex; /* oculto menú */
-    flex-direction: column; /* opcional, si quieres que se despliegue en columna */
+    display: flex; 
+    flex-direction: column; 
     justify-content: space-between;
     align-items: flex-end;
     margin-right: 0px;
@@ -171,9 +171,9 @@ body {
     font-size: 10px;
   }
   .menu_sidebar {
-    display: flex;          /* mostramos siempre */
-    flex-direction: column; /* columna vertical */
-    align-items: center;  /* alineado a la derecha del sidebar */
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;  
     gap: 10px;
     margin: 0;
     padding: 0;
@@ -189,10 +189,10 @@ body {
     font-size: 18px;
   }
   .sidebar .logo {
-    margin: 0;   /* elimina auto para que quede a la izquierda */
+    margin: 0;   
   }
   .grid {
-    grid-template-columns: 1fr; /* mantiene cards en columna */
+    grid-template-columns: 1fr; 
   }
 }
 /* Pantallas grandes en adelante */
