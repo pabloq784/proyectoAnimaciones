@@ -81,7 +81,7 @@ body {
   list-style: none;  
   gap: 12px;
   padding-top: 80px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .sidebar ul li a {
@@ -164,7 +164,7 @@ body {
     flex-direction: column; /* opcional, si quieres que se despliegue en columna */
     justify-content: space-between;
     align-items: flex-end;
-    padding: 8px 40px;
+    padding: 8px 30px;
     font-size: 10px;
   }
   .menu_sidebar {
